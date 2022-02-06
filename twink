@@ -176,7 +176,7 @@ function UILibrary.Load(GUITitle)
 	local NewInstance, ContainerFrame, ContainerShadow, MainFrame
 	
 	NewInstance = Instance.new("ScreenGui")
-	NewInstance.Name = math.random(1,99999)
+	NewInstance.Name = math.random(1,9999999999999999999)
 	NewInstance.Parent = TargetedParent
 	
 	ContainerFrame = Frame()
