@@ -346,7 +346,7 @@ function UILibrary.Load(GUITitle)
 		if SearchBarIncluded then
 			local SearchBarContainer = RoundBox(5)
 			SearchBarContainer.Name = "SearchBar"
-			SearchBarContainer.ImageColor3 = Color3.fromRGB(35,35,35)
+			SearchBarContainer.ImageColor3 = Color3.fromRGB(35,0,0)
 			SearchBarContainer.Size = UDim2.new(1,0,0,20)
 			SearchBarContainer.Parent = DisplayPage
 			
@@ -390,7 +390,7 @@ function UILibrary.Load(GUITitle)
 			local ButtonForeground = RoundBox(5)
 			ButtonForeground.Name = "ButtonForeground"
 			ButtonForeground.Size = UDim2.new(1,0,1,0)
-			ButtonForeground.ImageColor3 = Color3.fromRGB(35,35,35)
+			ButtonForeground.ImageColor3 = Color3.fromRGB(35,0,0)
 			ButtonForeground.Parent = ButtonContainer
 			
 			if Underline then
@@ -409,10 +409,10 @@ function UILibrary.Load(GUITitle)
 			
 			HiddenButton.MouseButton1Down:Connect(function()
 				Callback()
-				Tween(ButtonForeground, {ImageColor3 = Color3.fromRGB(45,45,45)})
+				Tween(ButtonForeground, {ImageColor3 = Color3.fromRGB(45,0,0)})
 				Tween(HiddenButton, {TextTransparency = 0.5})
 				wait(TweenTime)
-				Tween(ButtonForeground, {ImageColor3 = Color3.fromRGB(35,35,35)})
+				Tween(ButtonForeground, {ImageColor3 = Color3.fromRGB(35,0,0)})
 				Tween(HiddenButton, {TextTransparency = 0})
 			end)
 		end
@@ -426,7 +426,7 @@ function UILibrary.Load(GUITitle)
 			
 			local LabelForeground = RoundBox(5)
 			LabelForeground.Name = "LabelForeground"
-			LabelForeground.ImageColor3 = Color3.fromRGB(45,45,45)
+			LabelForeground.ImageColor3 = Color3.fromRGB(45,0,0)
 			LabelForeground.Size = UDim2.new(1,0,1,0)
 			LabelForeground.Parent = LabelContainer
 			
@@ -447,7 +447,7 @@ function UILibrary.Load(GUITitle)
 			
 			local DropdownForeground = RoundBox(5)
 			DropdownForeground.ClipsDescendants = true
-			DropdownForeground.ImageColor3 = Color3.fromRGB(35,35,35)
+			DropdownForeground.ImageColor3 = Color3.fromRGB(35,0,0)
 			DropdownForeground.Size = UDim2.new(1,0,1,0)
 			DropdownForeground.Parent = DropdownContainer
 			
@@ -512,7 +512,7 @@ function UILibrary.Load(GUITitle)
 			local PickerLeftSide, PickerRightSide, PickerFrame = RoundBox(5), RoundBox(5), RoundBox(5)
 			
 			PickerLeftSide.Size = UDim2.new(1,-22,1,0)
-			PickerLeftSide.ImageColor3 = Color3.fromRGB(35,35,35)
+			PickerLeftSide.ImageColor3 = Color3.fromRGB(35,0,0)
 			PickerLeftSide.Parent = PickerContainer
 			
 			PickerRightSide.Size = UDim2.new(0,20,1,0)
@@ -520,7 +520,7 @@ function UILibrary.Load(GUITitle)
 			PickerRightSide.ImageColor3 = DefaultColour
 			PickerRightSide.Parent = PickerContainer
 			
-			PickerFrame.ImageColor3 = Color3.fromRGB(35,35,35)
+			PickerFrame.ImageColor3 = Color3.fromRGB(35,0,0)
 			PickerFrame.Size = UDim2.new(1,-22,0,60)
 			PickerFrame.Position = UDim2.new(0,0,0,20)
 			PickerFrame.Parent = PickerContainer
@@ -600,7 +600,7 @@ function UILibrary.Load(GUITitle)
 			
 			local SliderForeground = RoundBox(5)
 			SliderForeground.Name = "SliderForeground"
-			SliderForeground.ImageColor3 = Color3.fromRGB(35,35,35)
+			SliderForeground.ImageColor3 = Color3.fromRGB(35,0,0)
 			SliderForeground.Size = UDim2.new(1,0,1,0)
 			SliderForeground.Parent = SliderContainer
 			
@@ -611,7 +611,7 @@ function UILibrary.Load(GUITitle)
 			
 			local SliderFill = RoundBox(5)
 			SliderFill.Size = UDim2.new(DefaultScale,0,1,0)
-			SliderFill.ImageColor3 = Color3.fromRGB(70,70,70)
+			SliderFill.ImageColor3 = Color3.fromRGB(70,0,0)
 			SliderFill.ZIndex = 5
 			SliderFill.ImageTransparency = 0.7
 			SliderFill.Parent = SliderButton
@@ -657,12 +657,12 @@ function UILibrary.Load(GUITitle)
 			local FlatLeft, FlatRight = Frame(), Frame()
 			
 			ToggleLeftSide.Size = UDim2.new(1,-22,1,0)
-			ToggleLeftSide.ImageColor3 = Color3.fromRGB(35,35,35)
+			ToggleLeftSide.ImageColor3 = Color3.fromRGB(35,0,0)
 			ToggleLeftSide.Parent = ToggleContainer
 			
 			ToggleRightSide.Position = UDim2.new(1,-20,0,0)
 			ToggleRightSide.Size = UDim2.new(0,20,1,0)
-			ToggleRightSide.ImageColor3 = Color3.fromRGB(45,45,45)
+			ToggleRightSide.ImageColor3 = Color3.fromRGB(45,0,0)
 			ToggleRightSide.Parent = ToggleContainer
 			
 			FlatLeft.BackgroundColor3 = Color3.fromRGB(35,0,0)
