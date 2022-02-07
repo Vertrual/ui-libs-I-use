@@ -546,7 +546,7 @@ function UILibrary.Load(GUITitle)
 			
 			local EffectLeft, EffectRight = Frame(), Frame()
 			
-			EffectLeft.BackgroundColor3 = Color3.fromRGB(35,35,35)
+			EffectLeft.BackgroundColor3 = Color3.fromRGB(35,0,0)
 			EffectLeft.Position = UDim2.new(1,-5,0,0)
 			EffectLeft.Size = UDim2.new(0,5,1,0)
 			EffectLeft.Parent = PickerLeftSide
@@ -665,12 +665,12 @@ function UILibrary.Load(GUITitle)
 			ToggleRightSide.ImageColor3 = Color3.fromRGB(45,45,45)
 			ToggleRightSide.Parent = ToggleContainer
 			
-			FlatLeft.BackgroundColor3 = Color3.fromRGB(35,35,35)
+			FlatLeft.BackgroundColor3 = Color3.fromRGB(35,0,0)
 			FlatLeft.Size = UDim2.new(0,5,1,0)
 			FlatLeft.Position = UDim2.new(1,-5,0,0)
 			FlatLeft.Parent = ToggleLeftSide
 			
-			FlatRight.BackgroundColor3 = Color3.fromRGB(45,45,45)
+			FlatRight.BackgroundColor3 = Color3.fromRGB(45,0,0)
 			FlatRight.Size = UDim2.new(0,5,1,0)
 			FlatRight.Parent = ToggleRightSide
 			
