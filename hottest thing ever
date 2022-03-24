@@ -7,14 +7,14 @@ local Mouse = LocalPlayer:GetMouse()
 local PresetColor = Color3.fromRGB(44, 120, 224)
 local CloseBind = Enum.KeyCode.RightControl
 
-local uicheck = game:GetService("CoreGui"):FindFirstChild("RubyUI")
+local uicheck = game:GetService("CoreGui"):FindFirstChild("UI")
 	if uicheck then
 		uicheck:Destroy()
 	end
 end
 
 local ui = Instance.new("ScreenGui")
-ui.Name = "RubyUI"
+ui.Name = "UI"
 ui.Parent = game.CoreGui
 ui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
