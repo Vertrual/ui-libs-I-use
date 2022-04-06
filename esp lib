@@ -288,7 +288,7 @@ function ESP:Add(obj, options)
 		Visible = self.Enabled and self.Boxes
 	})
 	box.Components["Name"] = Draw("Text", {
-		Text = box.Name,
+		Text = box.Name " | "box.DisplayName,
 		Color = box.Color,
 		Center = true,
 		Outline = true,
