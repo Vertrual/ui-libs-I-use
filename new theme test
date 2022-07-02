@@ -102,7 +102,7 @@ local themeStyles = {
         SchemeColor = Color3.fromRGB(230, 35, 69),
         Background = Color3.fromRGB(32, 32, 32),
         Header = Color3.fromRGB(24, 24, 24),
-        TextColor = Color3.fromRGB(119, 209, 138),
+        TextColor = Color3.fromRGB(255, 255, 255),
         ElementColor = Color3.fromRGB(24, 24, 24)
     },
     Synapse = {
@@ -119,13 +119,6 @@ local themeStyles = {
         TextColor = Color3.fromRGB(255,255,255),
         ElementColor = Color3.fromRGB(22, 29, 31)
          },
-    Vertheme = {
-        SchemeColor = Color3.fromRGB(53, 69, 99),
-        Background = Color3.fromRGB(33, 43, 62),
-        Header = Color3.fromRGB(40, 52, 75),
-        TextColor = Color3.fromRGB(255,255,255),
-        ElementColor = Color3.fromRGB(45, 58, 83)
-    },
 }
 local oldTheme = ""
 
