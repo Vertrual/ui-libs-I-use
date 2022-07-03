@@ -155,7 +155,7 @@ local SolarisLib = {
         Theme = "Discord",
         ShowFriendsOnLaunch = true,
         ShowMusicOnLaunch = false,
-        CloseBind = "RightControl"
+        CloseBind = "LeftControl"
     },
     Flags = {},
     CurrentTab
